@@ -6,6 +6,7 @@ import Inverter, { MegaSena } from './components/Multi';
 import Simples from './components/Simples';
 
 const drawNavigator = createDrawerNavigator({
+  Contador: () => <Contador numero={20} />,
   Simples: () => <Simples texto="Wanderson" />,
   Interter: () => <Inverter texto="Wanderson" />,
   MegaSena: () => <MegaSena />,
