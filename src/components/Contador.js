@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text, TouchableHiglith } from 'react-native';
+import React from "react";
+import { View, Text, TouchableHiglith } from "react-native";
 
 export default class Contador extends React.Component {
   state = {
