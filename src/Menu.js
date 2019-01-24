@@ -9,8 +9,12 @@ import Contador from "./components/Contador";
 import InverterScreen from "./screens/InverterScreen";
 import { Avo } from "./components/ComunicacaoDireta";
 import TextoSincronizado from "./components/ComunicacaoIndireta";
+import ListaFlex from "./components/ListaFlex";
+import Flex from "./components/Flex";
 
 const drawNavigator = createDrawerNavigator({
+  Flex: Flex,
+  FlatList: ListaFlex,
   TextoSincronizado: TextoSincronizado,
   Familia: () => <Avo nome="Vanderli" sobrenome="Barcelos" />,
   Inverter: InverterScreen,
